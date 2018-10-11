@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
 public class MyServiceTestSerialization {
-    private static RemoteServerDto remoteServerDto;
+    private RemoteServerDto remoteServerDto;
 
     @InjectMocks
     private MyService myService;
